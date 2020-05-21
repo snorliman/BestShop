@@ -11,6 +11,7 @@
     --green-color: #55DFB4;
     --white-color: #FFFFFF;
     --lightgray: #F7F7F7;
+    --shadow-box-color: #07ACE629;
 
 }
 * {
@@ -56,6 +57,7 @@
     padding-top: 28px;
     padding-bottom: 28px;
     box-sizing: border-box;
+    border-bottom: 4px solid white;
 }
 .nav_item {
 
@@ -174,4 +176,259 @@
 }
 .benefits_section {
     background-color: var(--lightgray);
+}
+
+.benefits_article_top {
+    background-color: var(--white-color);
+    position: relative;
+    margin-top: 105px;
+    margin-bottom: 37px;
+}
+.line {
+    width: 327px;
+    height: 4px;
+}
+.red_line {
+    background-color: var(--red-color);
+    float: left;
+    margin-left: 35px;
+}
+.macbook {
+    height: 219px;
+    width: 386px;
+    float: right;
+    margin-top: 113px;
+    margin-bottom: 38px;
+    margin-right: 117px;
+    position: relative;
+    z-index: 2;
+}
+.img_bg_red_element {
+    position: absolute;
+    right: 90px;
+    top: calc(100% / 2 - (180px /2 + 30px));
+    transform: rotate(45deg);
+    height: 180px;
+    width: 180px;
+    background-color: var(--red-color);
+    border-radius: 41px;
+    z-index: 1;
+
+}
+.benefits_header {
+    font-family: var(--primary-font);
+    font-size: 36px;
+    color: var(--black-color);
+}
+.top_article_header {
+    margin: 91px 347px 30px 36px;
+}
+.benefits_text {
+    font-family: var(--secondary-font);
+    font-size: 16px;
+    color: var(--black-color);
+    max-width: 416px;
+    margin-bottom: 50px;
+}
+.top_article_text {
+    margin-left: 35px;
+}
+.benefits_article_middle {
+    position: relative;
+
+}
+.iphone {
+    height: 328px;
+    width: 426px;
+    position: relative;
+    float: left;
+    margin-left: 70px;
+    margin-bottom: 13px;
+    margin-top: 29px;
+    z-index: 2;
+}
+.benefits_article_middle {
+    background-color: var(--white-color);
+    margin-bottom: 37px;
+}
+.middle_article_text {
+    float: right;
+    text-align: left;
+    margin-top: 30px;
+    margin-right: 20px;
+}
+.blue_line {
+    background-color: var(--blue-color);
+    float: right;
+    margin-right: 110px;
+}
+.middle_article_header {
+    float: right;
+    text-align: left;
+    max-width: 246px;
+    margin-top: 69px;
+    margin-left: 190px;
+    margin-right: 192px;
+}
+.img_bg_blue_element {
+    width: 320px;
+    height: 320px;
+    border-radius: 50%;
+    background-color: var(--blue-color);
+    position: absolute;
+    left: 70px;
+    top: 10px;
+}
+.benefits_article_bottom {
+    display: flex;
+}
+.benefits_content_bottom {
+    background-color: var(--white-color);
+
+}
+.trumpet {
+    width: 295px;
+    height: 207px;
+    margin: 98px 82px 64px 62px;
+}
+.benefits_img_bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--green-color);
+    margin-left: 61px;
+}
+.bottom_article_header {
+    margin: 69px 240px 30px 35px;
+}
+.bottom_article_text {
+    margin-left: 35px;
+    margin-bottom: 44px;
+}
+.green_line {
+    background-color: var(--green-color);
+    float: left;
+    margin-left: 35px;
+}
+.pricing {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.pricing_header {
+    font-size: 36px;
+    font-family: var(--primary-font);
+    color: var(--black-color);
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+.pricing_section_block {
+    display: flex;
+    justify-content: space-evenly;
+}
+.pricing_column {
+    border-radius: 18px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+.pricing_column_header {
+    font-family: var(--primary-font);
+    font-weight: 700;
+    font-size: 20px;
+    color: var(--black-color);
+    margin-top: 34px;
+    margin-bottom: 14px;
+}
+.basic_header {
+    margin-right: 160px;
+    margin-left: 160px;
+}
+.professional_header {
+    margin-left: 141px;
+    margin-right: 141px;
+}
+.premium_header {
+    margin-right: 143px;
+    margin-left: 143px;
+}
+.cost {
+    font-family: var(--secondary-font);
+    font-weight: 300;
+    font-size: 46px;
+}
+.pricing_basic_cost {
+    color: var(--red-color);
+    margin-bottom: 69px;
+}
+.pricing_professional_cost {
+    color: var(--blue-color);
+    margin-bottom: 5px;
+}
+.pricing_premium_cost {
+    color: var(--green-color);
+    margin-bottom: 5px;
+}
+.limited_offer {
+    font-family: var(--primary-font);
+    font-weight: 700;
+    font-size: 12px;
+    color: var(--black-color);
+}
+.limited_professional {
+    margin-bottom: 61px;
+}
+.limited_premium {
+    margin-bottom: 50px;
+}
+.pricing_offer {
+    font-family: var(--secondary-font);
+    font-size: 14px;
+    color: var(--black-color);
+    margin-bottom: 81px;
+}
+.pricing_begin_btn {
+    font-family: var(--secondary-font);
+    font-weight: 700;
+    font-size: 13px;
+    color: var(--white-color);
+    padding: 16px 57px;
+    border-radius: 23px;
+    text-decoration: none;
+    position: absolute;
+    bottom: calc(0% - (50px / 2));
+    left: calc(50% - (150px / 2));
+}
+.pricing_basic {
+    border: 1px solid var(--red-color);
+    margin-right: 59px;
+    margin-top: 21px;
+    margin-bottom: 197px;
+}
+.pricing_professional {
+    border: 1px solid var(--blue-color);
+    margin-right: 58px;
+    margin-bottom: 179px;
+    box-shadow: 5px 10px 27px var(--shadow-box-color);
+}
+.pricing_premium {
+    border: 1px solid var(--green-color);
+    margin-top: 21px;
+    margin-bottom:  197px;
+
+}
+.basic_btn {
+    background-color: var(--red-color);
+}
+.professional_btn {
+    background-color: var(--blue-color);
+}
+.premium_btn {
+    background-color: var(--green-color);
+}
+
+.pricing_offer li {
+    margin-bottom: 20px;
 }
